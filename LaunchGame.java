@@ -72,10 +72,10 @@ class TicTacToe{
 }
 
 
-class HumanPlayer{
+class Player{
     String name;
     char mark;
-    HumanPlayer(String name,char mark){
+    Player(String name,char mark){
         this.name = name;
         this.mark = mark;
     }
@@ -111,9 +111,9 @@ class HumanPlayer{
 public class LaunchGame{
     public static void main(String[] args) {
         TicTacToe t = new TicTacToe();
-        HumanPlayer p1 =  new HumanPlayer("Player 1",'X');
-        HumanPlayer p2 = new HumanPlayer("Player 2",'O');
-        HumanPlayer cp;
+        Player p1 =  new HumanPlayer("Player 1",'X');
+        Player p2 = new HumanPlayer("Player 2",'O');
+        Player cp;
         cp = p1;
 
        while(true){
