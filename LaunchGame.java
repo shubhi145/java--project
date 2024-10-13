@@ -111,8 +111,8 @@ class HumanPlayer{
 public class LaunchGame{
     public static void main(String[] args) {
         TicTacToe t = new TicTacToe();
-        HumanPlayer p1 =  new HumanPlayer("aashu",'X');
-        HumanPlayer p2 = new HumanPlayer("shubhi",'O');
+        HumanPlayer p1 =  new HumanPlayer("Player 1",'X');
+        HumanPlayer p2 = new HumanPlayer("Player 2",'O');
         HumanPlayer cp;
         cp = p1;
 
